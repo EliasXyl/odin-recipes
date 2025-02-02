@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: rgb(170, 0, 0);
+    font-size: 40px;
+}
+
+
+body {
+
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+ul {
+    font-size: 30px;
+    display: flex;
+    justify-content:space-between;
+    background-color: #90EE90;
+    list-style: none;
+    padding: 0 5vw;
+    margin: 70vh 0 0 0;
+    width: 90%;
+    
+
+}
+
+
