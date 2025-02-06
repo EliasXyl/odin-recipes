@@ -1,0 +1,43 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    display: grid;
+    place-items: center; /* Centers both horizontally and vertically */
+    text-align: justify; /* Fully justifies all text */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5; /* Improves readability */
+}
+
+li {
+    font-size: 18px; /* Improves readability */
+    margin-bottom: 20px; /* Adds space at the bottom of each element of the lists to improve readability */
+}
+
+/* Centers unordered and ordered lists */
+ul, ol {
+    list-style-position: inside; /* Makes sure list items stay inside the container */
+    margin: 0 auto; /* Center the lists horizontally */
+    padding-left: 20px; /* Keeps indentation for items */
+    max-width: 600px; /* Optionally limit width for better readability */
+    text-align: left; /* Ensures list items are left-aligned */
+}
+
+h1, h2, h3 {
+    color: rgb(170, 0, 0);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 26px;
+}
